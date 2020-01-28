@@ -22,9 +22,17 @@ There are 2 ways to use the tag component. You can use HTML or, if you are using
 
 {{ example({group: "components", item: "tag", example: "default", html: true, nunjucks: true, open: false, titleSuffix: "second"}) }}
 
-## Additional colours
+## Using multiple tags
 
-There are a number of additional colours you can use for the different states in your service.
+You can use multiple tags for things that have multiple states. For example, items in a [task list](../../patterns/task-list-pages).
+
+Tags should help people to organise things into useful categories: for example, things they’ve done and things they still need to do. The more categories you add, the harder it is for users to remember them. So start with the fewest number of tags you think might work, then add more if your user research shows there’s a need for them.
+
+## Using coloured tags
+
+You can use colour to help distinguish between different tags - or to help draw the user’s attention to a tag if it’s especially important. For example, it probably makes sense to use  ´govuk-tag--red´ for a tag that reads ‘Urgent’.
+
+Tags that have the same wording should use the same colour. [Do not use colour alone to convey information](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html) because it’s not accessible.
 
 <table class="govuk-table">
   <thead class="govuk-table__head">
@@ -138,6 +146,7 @@ There are a number of additional colours you can use for the different states in
 
 ## Research on this component
 
-The additional colours were contributed by someone at the Department for Education.
+The Department for Education contributed the coloured tabs. They’re being used in:
 
-The colours are being used by Apply for teacher training used by citizens and Manage teacher training applications used by teacher training providers.
+- apply for teacher training (aimed at citizens)
+- manage teacher training applications (aimed at teacher training providers)
