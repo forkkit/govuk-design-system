@@ -28,33 +28,33 @@ Tags should help people to organise things into useful categories: for example, 
 
 {{ example({group: "components", item: "tag", example: "multiple-tags", html: true, nunjucks: true, open: false }) }}
 
-### Start with as fewer categories as possible
+### Start with as few categories as possible
 
-The more categories you add, the harder it is for users to remember them. So start with the fewest number of tags you think might work, then add more if your user research shows there’s a need for them.
+The more categories you add, the harder it is for users to remember them. So start with the smallest number of tags you think might work, then add more if your user research shows there’s a need for them.
 
 ### Using colour to distinguish between different categories
 
-You can use colour to help distinguish between different tags - or to help draw the user’s attention to a tag if it’s especially important. For example, it probably makes sense to use  `govuk-tag--red` for a tag that reads ‘Urgent’.
+You can use colour to help distinguish between different tags – or to help draw the user’s attention to a tag if it’s especially important. For example, it probably makes sense to use  `govuk-tag--red` for a tag that reads ‘Urgent’.
 
 {{ example({group: "components", item: "tag", example: "coloured-tags", html: true, nunjucks: true, open: false }) }}
 
-### Avoid using a different tag styles at the same time
+### Avoid using different tag styles at the same time
 
-Avoid using tinted colours and white text on solid colour tags at the same time because the solid colours are more prominent.
+Avoid using tints and solid coloured tags at the same time because the solid colours are more prominent.
 
-You can use a mix if you only have 2 states. For example, it's okay to use `govuk-tag--grey` and the default white text on blue tags together.
+You can use a mix if you only have 2 states. For example, it's okay to use the tint `govuk-tag--grey` and solid blue tags together.
 
 ### Use the same colour with the same wording
 
-Tags that have the same wording should use the same colour. [Do not use colour alone to convey information](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html) because it’s not accessible.
+If you use the same tag in more than one place, make sure you keep the colour consistent. [Do not use colour alone to convey information](https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html) because it’s not accessible.
 
 ### Do not make tags clickable
 
-Do not add links around your tags. Do not use verbs as tag content. Tags should be used as statuses, not actions.
+Tags should be used as statuses, not actions. Do not add links or use verbs in your tags, as this might make users think that clicking on them will do something.
 
-### Available colours
+### Additional colours
 
-You can use the following colours in your service.
+You can use the following tints in your service.
 
 {{ example({group: "components", item: "tag", example: "all-colours", html: true, nunjucks: true, open: false }) }}
 
